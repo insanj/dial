@@ -1,0 +1,25 @@
+/*
+ 	(c) 2018 Julian Weiss // insanj
+	dial
+	https://github.com/insanj/dial
+*/
+
+body {
+	background-color: #272822;
+	margin: 50px;
+
+	font-family: Roboto, HelveticaNeue, sans-serif;
+	color: #999;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 0px -1px 0px rgba(255,255,255,0.5);
+}
+
+#alert {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+}

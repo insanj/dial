@@ -1,0 +1,27 @@
+/*
+ 	(c) 2018 Julian Weiss // insanj
+	dial
+	https://github.com/insanj/dial
+*/
+
+#dialui-container {
+	background: #753a1a;
+	
+	margin: auto;
+	width: 500px;
+	height: 30px;
+
+	border-radius: 5px;
+
+    overflow-x: auto;
+}
+
+.dialui-item {
+	background: #20bd87;
+
+	position: absolute;
+
+	cursor: pointer;
+	width: 5px;
+	height: 30px;
+}

@@ -1,0 +1,2292 @@
+[
+  {
+    "sha": "535a847dad168d3369a5699c4bf6eb17884e60c2",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T18:30:41Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T18:30:41Z"
+      },
+      "message": "parse app name into id, img shadow, impl rest of app section",
+      "tree": {
+        "sha": "8a62854ef624ea753491a0e7ed4f033a2ea6751c",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/8a62854ef624ea753491a0e7ed4f033a2ea6751c"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/535a847dad168d3369a5699c4bf6eb17884e60c2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/535a847dad168d3369a5699c4bf6eb17884e60c2",
+    "html_url": "https://github.com/insanj/insanj.com/commit/535a847dad168d3369a5699c4bf6eb17884e60c2",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/535a847dad168d3369a5699c4bf6eb17884e60c2/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8a8ca8889855cb575791ac7aa91be567c4355124",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/8a8ca8889855cb575791ac7aa91be567c4355124",
+        "html_url": "https://github.com/insanj/insanj.com/commit/8a8ca8889855cb575791ac7aa91be567c4355124"
+      }
+    ]
+  },
+  {
+    "sha": "8a8ca8889855cb575791ac7aa91be567c4355124",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T16:59:29Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T16:59:29Z"
+      },
+      "message": "simplify badge class, consolidate gen using type, shared vars",
+      "tree": {
+        "sha": "fbd24f9659e00477084af52d3c59b7a7b5bfcdca",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/fbd24f9659e00477084af52d3c59b7a7b5bfcdca"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/8a8ca8889855cb575791ac7aa91be567c4355124",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/8a8ca8889855cb575791ac7aa91be567c4355124",
+    "html_url": "https://github.com/insanj/insanj.com/commit/8a8ca8889855cb575791ac7aa91be567c4355124",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/8a8ca8889855cb575791ac7aa91be567c4355124/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3cd59487ae16f79dae54292502588ddd2a333fdd",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/3cd59487ae16f79dae54292502588ddd2a333fdd",
+        "html_url": "https://github.com/insanj/insanj.com/commit/3cd59487ae16f79dae54292502588ddd2a333fdd"
+      }
+    ]
+  },
+  {
+    "sha": "3cd59487ae16f79dae54292502588ddd2a333fdd",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T16:17:22Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T16:17:22Z"
+      },
+      "message": "migrate uptalk, submarine to new gen script, animate",
+      "tree": {
+        "sha": "b9f7798e60e679fe8fda9e12f3d1f5ed6567964c",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/b9f7798e60e679fe8fda9e12f3d1f5ed6567964c"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/3cd59487ae16f79dae54292502588ddd2a333fdd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/3cd59487ae16f79dae54292502588ddd2a333fdd",
+    "html_url": "https://github.com/insanj/insanj.com/commit/3cd59487ae16f79dae54292502588ddd2a333fdd",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/3cd59487ae16f79dae54292502588ddd2a333fdd/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "75de43a4bf3c85f54cf58bd9038efba839a75d1e",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/75de43a4bf3c85f54cf58bd9038efba839a75d1e",
+        "html_url": "https://github.com/insanj/insanj.com/commit/75de43a4bf3c85f54cf58bd9038efba839a75d1e"
+      }
+    ]
+  },
+  {
+    "sha": "75de43a4bf3c85f54cf58bd9038efba839a75d1e",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T15:50:15Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-11T15:50:15Z"
+      },
+      "message": "create jquery dynamic app div generation script",
+      "tree": {
+        "sha": "fd76e700e676ef7b5d2bcad1367f044a8ebe287f",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/fd76e700e676ef7b5d2bcad1367f044a8ebe287f"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/75de43a4bf3c85f54cf58bd9038efba839a75d1e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/75de43a4bf3c85f54cf58bd9038efba839a75d1e",
+    "html_url": "https://github.com/insanj/insanj.com/commit/75de43a4bf3c85f54cf58bd9038efba839a75d1e",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/75de43a4bf3c85f54cf58bd9038efba839a75d1e/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d93ec30b89b7581ef059683e927017b68c952331",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/d93ec30b89b7581ef059683e927017b68c952331",
+        "html_url": "https://github.com/insanj/insanj.com/commit/d93ec30b89b7581ef059683e927017b68c952331"
+      }
+    ]
+  },
+  {
+    "sha": "d93ec30b89b7581ef059683e927017b68c952331",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-09T19:08:45Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-09T19:08:45Z"
+      },
+      "message": "fullstack tag, improve grid, add uptalk, minor cleanup",
+      "tree": {
+        "sha": "10b9308d61cd2ff8be85cfdacbce4a6c0eb5ace1",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/10b9308d61cd2ff8be85cfdacbce4a6c0eb5ace1"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/d93ec30b89b7581ef059683e927017b68c952331",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/d93ec30b89b7581ef059683e927017b68c952331",
+    "html_url": "https://github.com/insanj/insanj.com/commit/d93ec30b89b7581ef059683e927017b68c952331",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/d93ec30b89b7581ef059683e927017b68c952331/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2cb32a6ab6db884be694e944834815a4b5bb4d0d",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/2cb32a6ab6db884be694e944834815a4b5bb4d0d",
+        "html_url": "https://github.com/insanj/insanj.com/commit/2cb32a6ab6db884be694e944834815a4b5bb4d0d"
+      }
+    ]
+  },
+  {
+    "sha": "2cb32a6ab6db884be694e944834815a4b5bb4d0d",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@users.noreply.github.com",
+        "date": "2018-04-07T18:42:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-04-07T18:42:43Z"
+      },
+      "message": "Merge pull request #2 from insanj/bootstrap\n\n✨ Bootstrap ✨",
+      "tree": {
+        "sha": "9cd9a35fb1a99a0af1fbcd4ee59cd7612d3cf4bd",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/9cd9a35fb1a99a0af1fbcd4ee59cd7612d3cf4bd"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/2cb32a6ab6db884be694e944834815a4b5bb4d0d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJayREjCRBK7hj4Ov3rIwAAdHIIAAxF+kswKYO2xIbpkRvHIJZ4\nlB3rJFVhbcXIuBWWAmjjR8o1cTLrijnFVljJ/i6K0sgTy9a/m3B6ky2yWN+mzMLq\nUQqxNLAOLMt7n+shnQOXfk/6BkV0mqj+OZeBcWWYgiM2XVUO8mU/OVf6+o3QZcnA\nUPr+vS2cszsPE20BzAn6DEkiUKbAi98OOZO4/RH4j8tDzbfmywpc/0uWYiLD/8+k\n0K6Zgd8iiKIbEvIYMf30fl8u5FZoqxlUmDtV3EO7vzF+wpJz/XqmJG+SiHd/arfA\n7fHiaNvmpuzuz2sjpkzvpy+36k+E5A0J7RXB1XCuRTHWMupT2Pbw1KgYWsUyw28=\n=TCsX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9cd9a35fb1a99a0af1fbcd4ee59cd7612d3cf4bd\nparent 20e500110e247f79dbda3a117eb6ad594b82daaa\nparent b71db2582fd13f65d64663f0083a0bd9180adfb0\nauthor Julian Weiss <insanj@users.noreply.github.com> 1523126563 -0400\ncommitter GitHub <noreply@github.com> 1523126563 -0400\n\nMerge pull request #2 from insanj/bootstrap\n\n✨ Bootstrap ✨"
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/2cb32a6ab6db884be694e944834815a4b5bb4d0d",
+    "html_url": "https://github.com/insanj/insanj.com/commit/2cb32a6ab6db884be694e944834815a4b5bb4d0d",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/2cb32a6ab6db884be694e944834815a4b5bb4d0d/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20e500110e247f79dbda3a117eb6ad594b82daaa",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/20e500110e247f79dbda3a117eb6ad594b82daaa",
+        "html_url": "https://github.com/insanj/insanj.com/commit/20e500110e247f79dbda3a117eb6ad594b82daaa"
+      },
+      {
+        "sha": "b71db2582fd13f65d64663f0083a0bd9180adfb0",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/b71db2582fd13f65d64663f0083a0bd9180adfb0",
+        "html_url": "https://github.com/insanj/insanj.com/commit/b71db2582fd13f65d64663f0083a0bd9180adfb0"
+      }
+    ]
+  },
+  {
+    "sha": "b71db2582fd13f65d64663f0083a0bd9180adfb0",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-07T18:39:57Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-04-07T18:39:57Z"
+      },
+      "message": "complete bootstrap overhaul, offcanvas, move site to archives",
+      "tree": {
+        "sha": "9cd9a35fb1a99a0af1fbcd4ee59cd7612d3cf4bd",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/9cd9a35fb1a99a0af1fbcd4ee59cd7612d3cf4bd"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/b71db2582fd13f65d64663f0083a0bd9180adfb0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/b71db2582fd13f65d64663f0083a0bd9180adfb0",
+    "html_url": "https://github.com/insanj/insanj.com/commit/b71db2582fd13f65d64663f0083a0bd9180adfb0",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/b71db2582fd13f65d64663f0083a0bd9180adfb0/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20e500110e247f79dbda3a117eb6ad594b82daaa",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/20e500110e247f79dbda3a117eb6ad594b82daaa",
+        "html_url": "https://github.com/insanj/insanj.com/commit/20e500110e247f79dbda3a117eb6ad594b82daaa"
+      }
+    ]
+  },
+  {
+    "sha": "20e500110e247f79dbda3a117eb6ad594b82daaa",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T20:33:04Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T20:33:04Z"
+      },
+      "message": "finalize dope scroll anim, showcase refinements",
+      "tree": {
+        "sha": "4f4739bb6e8d803cfcd3f36b725499ed976a2d63",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/4f4739bb6e8d803cfcd3f36b725499ed976a2d63"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/20e500110e247f79dbda3a117eb6ad594b82daaa",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/20e500110e247f79dbda3a117eb6ad594b82daaa",
+    "html_url": "https://github.com/insanj/insanj.com/commit/20e500110e247f79dbda3a117eb6ad594b82daaa",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/20e500110e247f79dbda3a117eb6ad594b82daaa/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "184d43d964ab0e1d9adc944bdf0d8fd164b7d699",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/184d43d964ab0e1d9adc944bdf0d8fd164b7d699",
+        "html_url": "https://github.com/insanj/insanj.com/commit/184d43d964ab0e1d9adc944bdf0d8fd164b7d699"
+      }
+    ]
+  },
+  {
+    "sha": "184d43d964ab0e1d9adc944bdf0d8fd164b7d699",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T20:29:34Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T20:29:34Z"
+      },
+      "message": "experiment w step func, initial load anim, optimize foreach",
+      "tree": {
+        "sha": "54248ed8014d44b17571979c4e64aa01bee2161c",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/54248ed8014d44b17571979c4e64aa01bee2161c"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/184d43d964ab0e1d9adc944bdf0d8fd164b7d699",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/184d43d964ab0e1d9adc944bdf0d8fd164b7d699",
+    "html_url": "https://github.com/insanj/insanj.com/commit/184d43d964ab0e1d9adc944bdf0d8fd164b7d699",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/184d43d964ab0e1d9adc944bdf0d8fd164b7d699/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "771b2e9093999adbd04e00b010010e1e779bad1b",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/771b2e9093999adbd04e00b010010e1e779bad1b",
+        "html_url": "https://github.com/insanj/insanj.com/commit/771b2e9093999adbd04e00b010010e1e779bad1b"
+      }
+    ]
+  },
+  {
+    "sha": "771b2e9093999adbd04e00b010010e1e779bad1b",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T20:05:23Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T20:05:23Z"
+      },
+      "message": "impl jquery scroll scale, opacity transform effect, tweak showcase",
+      "tree": {
+        "sha": "f798362e87e021e646e3a79d54be144f310c4b95",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/f798362e87e021e646e3a79d54be144f310c4b95"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/771b2e9093999adbd04e00b010010e1e779bad1b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/771b2e9093999adbd04e00b010010e1e779bad1b",
+    "html_url": "https://github.com/insanj/insanj.com/commit/771b2e9093999adbd04e00b010010e1e779bad1b",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/771b2e9093999adbd04e00b010010e1e779bad1b/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "999725c7e87a695e602502ccb8c5860efbfa1db7",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/999725c7e87a695e602502ccb8c5860efbfa1db7",
+        "html_url": "https://github.com/insanj/insanj.com/commit/999725c7e87a695e602502ccb8c5860efbfa1db7"
+      }
+    ]
+  },
+  {
+    "sha": "999725c7e87a695e602502ccb8c5860efbfa1db7",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T17:12:25Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T17:12:25Z"
+      },
+      "message": "minor text improvements",
+      "tree": {
+        "sha": "80eac4db43cc1cc75905f805b46488a9248b405c",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/80eac4db43cc1cc75905f805b46488a9248b405c"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/999725c7e87a695e602502ccb8c5860efbfa1db7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/999725c7e87a695e602502ccb8c5860efbfa1db7",
+    "html_url": "https://github.com/insanj/insanj.com/commit/999725c7e87a695e602502ccb8c5860efbfa1db7",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/999725c7e87a695e602502ccb8c5860efbfa1db7/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0",
+        "html_url": "https://github.com/insanj/insanj.com/commit/c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0"
+      }
+    ]
+  },
+  {
+    "sha": "c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T17:08:32Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T17:08:32Z"
+      },
+      "message": "add rec section, upload asset, refine anim",
+      "tree": {
+        "sha": "507d1899d34b372edf405b34440d6af68f893dbc",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/507d1899d34b372edf405b34440d6af68f893dbc"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0",
+    "html_url": "https://github.com/insanj/insanj.com/commit/c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/c7fa02be4e14dfcc1966f5f1a3d2450ae24c0be0/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bfd117d5662bd09d18707c2b932e39e5afd605e3",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/bfd117d5662bd09d18707c2b932e39e5afd605e3",
+        "html_url": "https://github.com/insanj/insanj.com/commit/bfd117d5662bd09d18707c2b932e39e5afd605e3"
+      }
+    ]
+  },
+  {
+    "sha": "bfd117d5662bd09d18707c2b932e39e5afd605e3",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T17:01:28Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T17:01:28Z"
+      },
+      "message": "impl bootup offset, opacity anim",
+      "tree": {
+        "sha": "e5d702022e7ecef39050e29edb6664ea18d02831",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/e5d702022e7ecef39050e29edb6664ea18d02831"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/bfd117d5662bd09d18707c2b932e39e5afd605e3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/bfd117d5662bd09d18707c2b932e39e5afd605e3",
+    "html_url": "https://github.com/insanj/insanj.com/commit/bfd117d5662bd09d18707c2b932e39e5afd605e3",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/bfd117d5662bd09d18707c2b932e39e5afd605e3/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dc2c512b13da9f8f27bc0d35b3f7419155d7fad1",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/dc2c512b13da9f8f27bc0d35b3f7419155d7fad1",
+        "html_url": "https://github.com/insanj/insanj.com/commit/dc2c512b13da9f8f27bc0d35b3f7419155d7fad1"
+      }
+    ]
+  },
+  {
+    "sha": "dc2c512b13da9f8f27bc0d35b3f7419155d7fad1",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T16:55:31Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-19T16:55:31Z"
+      },
+      "message": "minor tweaks, fixes, sync w live site",
+      "tree": {
+        "sha": "7add6ef006ebdf6dd191c02d42684183dd88d5e9",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/7add6ef006ebdf6dd191c02d42684183dd88d5e9"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/dc2c512b13da9f8f27bc0d35b3f7419155d7fad1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/dc2c512b13da9f8f27bc0d35b3f7419155d7fad1",
+    "html_url": "https://github.com/insanj/insanj.com/commit/dc2c512b13da9f8f27bc0d35b3f7419155d7fad1",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/dc2c512b13da9f8f27bc0d35b3f7419155d7fad1/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "13e7cd1c2a492ce57b40490fb2d998d3dfea2feb",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/13e7cd1c2a492ce57b40490fb2d998d3dfea2feb",
+        "html_url": "https://github.com/insanj/insanj.com/commit/13e7cd1c2a492ce57b40490fb2d998d3dfea2feb"
+      }
+    ]
+  },
+  {
+    "sha": "13e7cd1c2a492ce57b40490fb2d998d3dfea2feb",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-08T05:17:36Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-08T05:17:36Z"
+      },
+      "message": "organize index.css, rm coinhive mining",
+      "tree": {
+        "sha": "2ed4c0adee8298d241966ab43d2cb8bf1572da55",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/2ed4c0adee8298d241966ab43d2cb8bf1572da55"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/13e7cd1c2a492ce57b40490fb2d998d3dfea2feb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/13e7cd1c2a492ce57b40490fb2d998d3dfea2feb",
+    "html_url": "https://github.com/insanj/insanj.com/commit/13e7cd1c2a492ce57b40490fb2d998d3dfea2feb",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/13e7cd1c2a492ce57b40490fb2d998d3dfea2feb/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a8e85f236a512b07472dc9989e7275c7969441d3",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/a8e85f236a512b07472dc9989e7275c7969441d3",
+        "html_url": "https://github.com/insanj/insanj.com/commit/a8e85f236a512b07472dc9989e7275c7969441d3"
+      }
+    ]
+  },
+  {
+    "sha": "a8e85f236a512b07472dc9989e7275c7969441d3",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-08T04:59:21Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2018-01-08T04:59:21Z"
+      },
+      "message": "sync old changes: reorder, earn link, coinhive mining",
+      "tree": {
+        "sha": "71ab60f8fbaf0436058ca41b0c23d4a50d874091",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/71ab60f8fbaf0436058ca41b0c23d4a50d874091"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/a8e85f236a512b07472dc9989e7275c7969441d3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/a8e85f236a512b07472dc9989e7275c7969441d3",
+    "html_url": "https://github.com/insanj/insanj.com/commit/a8e85f236a512b07472dc9989e7275c7969441d3",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/a8e85f236a512b07472dc9989e7275c7969441d3/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b84f78f98512db02daee8d1b6860b21511e5b701",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/b84f78f98512db02daee8d1b6860b21511e5b701",
+        "html_url": "https://github.com/insanj/insanj.com/commit/b84f78f98512db02daee8d1b6860b21511e5b701"
+      }
+    ]
+  },
+  {
+    "sha": "b84f78f98512db02daee8d1b6860b21511e5b701",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-22T18:50:59Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-22T18:50:59Z"
+      },
+      "message": "medium -> linkedin, bold every proj title",
+      "tree": {
+        "sha": "4e849b98e7bd9eda49071efdfadd1b6edea2a2b1",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/4e849b98e7bd9eda49071efdfadd1b6edea2a2b1"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/b84f78f98512db02daee8d1b6860b21511e5b701",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/b84f78f98512db02daee8d1b6860b21511e5b701",
+    "html_url": "https://github.com/insanj/insanj.com/commit/b84f78f98512db02daee8d1b6860b21511e5b701",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/b84f78f98512db02daee8d1b6860b21511e5b701/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b87d5ed52750eb2a421b99e5aeece70fe4e92461",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/b87d5ed52750eb2a421b99e5aeece70fe4e92461",
+        "html_url": "https://github.com/insanj/insanj.com/commit/b87d5ed52750eb2a421b99e5aeece70fe4e92461"
+      }
+    ]
+  },
+  {
+    "sha": "b87d5ed52750eb2a421b99e5aeece70fe4e92461",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-16T23:33:40Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-16T23:33:40Z"
+      },
+      "message": "tweak showcase spacing, fix pianote html",
+      "tree": {
+        "sha": "cf924c29de5bc232d395940d07f7047a6f3a8fb5",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/cf924c29de5bc232d395940d07f7047a6f3a8fb5"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/b87d5ed52750eb2a421b99e5aeece70fe4e92461",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/b87d5ed52750eb2a421b99e5aeece70fe4e92461",
+    "html_url": "https://github.com/insanj/insanj.com/commit/b87d5ed52750eb2a421b99e5aeece70fe4e92461",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/b87d5ed52750eb2a421b99e5aeece70fe4e92461/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cd7688512d939e27fceadf083627e3c569b01bd1",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/cd7688512d939e27fceadf083627e3c569b01bd1",
+        "html_url": "https://github.com/insanj/insanj.com/commit/cd7688512d939e27fceadf083627e3c569b01bd1"
+      }
+    ]
+  },
+  {
+    "sha": "cd7688512d939e27fceadf083627e3c569b01bd1",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-16T23:23:07Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-16T23:23:07Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/insanj/insanj.com",
+      "tree": {
+        "sha": "4fa77bcdadedd3650b062d6e92be5f0c2b51aa38",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/4fa77bcdadedd3650b062d6e92be5f0c2b51aa38"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/cd7688512d939e27fceadf083627e3c569b01bd1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/cd7688512d939e27fceadf083627e3c569b01bd1",
+    "html_url": "https://github.com/insanj/insanj.com/commit/cd7688512d939e27fceadf083627e3c569b01bd1",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/cd7688512d939e27fceadf083627e3c569b01bd1/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8df19bd038e9fdb5e94d12ce423879b118a8ea96",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/8df19bd038e9fdb5e94d12ce423879b118a8ea96",
+        "html_url": "https://github.com/insanj/insanj.com/commit/8df19bd038e9fdb5e94d12ce423879b118a8ea96"
+      },
+      {
+        "sha": "2901d8b9e6f4ece6d09e083f6568f4404b1f756a",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/2901d8b9e6f4ece6d09e083f6568f4404b1f756a",
+        "html_url": "https://github.com/insanj/insanj.com/commit/2901d8b9e6f4ece6d09e083f6568f4404b1f756a"
+      }
+    ]
+  },
+  {
+    "sha": "8df19bd038e9fdb5e94d12ce423879b118a8ea96",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-16T23:20:54Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-11-16T23:20:54Z"
+      },
+      "message": "overhaul apps table, replace w vertical list showcase",
+      "tree": {
+        "sha": "68847806bc9b9a62f6bcb4b5a8a1ea2199f02019",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/68847806bc9b9a62f6bcb4b5a8a1ea2199f02019"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/8df19bd038e9fdb5e94d12ce423879b118a8ea96",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/8df19bd038e9fdb5e94d12ce423879b118a8ea96",
+    "html_url": "https://github.com/insanj/insanj.com/commit/8df19bd038e9fdb5e94d12ce423879b118a8ea96",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/8df19bd038e9fdb5e94d12ce423879b118a8ea96/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "09260af1352a285891f16d3fc682fc852238874e",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/09260af1352a285891f16d3fc682fc852238874e",
+        "html_url": "https://github.com/insanj/insanj.com/commit/09260af1352a285891f16d3fc682fc852238874e"
+      }
+    ]
+  },
+  {
+    "sha": "2901d8b9e6f4ece6d09e083f6568f4404b1f756a",
+    "commit": {
+      "author": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-10-20T23:57:56Z"
+      },
+      "committer": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-10-20T23:57:56Z"
+      },
+      "message": "add timesheet ref, tweak hover anim, b app names, reorg a little",
+      "tree": {
+        "sha": "19c05bf2b0429cdd759792ae51a0b73226688e37",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/19c05bf2b0429cdd759792ae51a0b73226688e37"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/2901d8b9e6f4ece6d09e083f6568f4404b1f756a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/2901d8b9e6f4ece6d09e083f6568f4404b1f756a",
+    "html_url": "https://github.com/insanj/insanj.com/commit/2901d8b9e6f4ece6d09e083f6568f4404b1f756a",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/2901d8b9e6f4ece6d09e083f6568f4404b1f756a/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "09260af1352a285891f16d3fc682fc852238874e",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/09260af1352a285891f16d3fc682fc852238874e",
+        "html_url": "https://github.com/insanj/insanj.com/commit/09260af1352a285891f16d3fc682fc852238874e"
+      }
+    ]
+  },
+  {
+    "sha": "09260af1352a285891f16d3fc682fc852238874e",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-10-13T00:06:51Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-10-13T00:06:51Z"
+      },
+      "message": "fix https calls, unneeded px in viewport",
+      "tree": {
+        "sha": "cca88f2866656582d6713245a786c8819a420ea1",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/cca88f2866656582d6713245a786c8819a420ea1"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/09260af1352a285891f16d3fc682fc852238874e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/09260af1352a285891f16d3fc682fc852238874e",
+    "html_url": "https://github.com/insanj/insanj.com/commit/09260af1352a285891f16d3fc682fc852238874e",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/09260af1352a285891f16d3fc682fc852238874e/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a62713fa37b026107c7f9d095297f009a2833166",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/a62713fa37b026107c7f9d095297f009a2833166",
+        "html_url": "https://github.com/insanj/insanj.com/commit/a62713fa37b026107c7f9d095297f009a2833166"
+      }
+    ]
+  },
+  {
+    "sha": "a62713fa37b026107c7f9d095297f009a2833166",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-10-13T00:02:29Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-10-13T00:02:29Z"
+      },
+      "message": "update hover state css, map via jquery",
+      "tree": {
+        "sha": "db78c8cfb10ab0edaf305e1e2f099414d9631839",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/db78c8cfb10ab0edaf305e1e2f099414d9631839"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/a62713fa37b026107c7f9d095297f009a2833166",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/a62713fa37b026107c7f9d095297f009a2833166",
+    "html_url": "https://github.com/insanj/insanj.com/commit/a62713fa37b026107c7f9d095297f009a2833166",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/a62713fa37b026107c7f9d095297f009a2833166/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "15cc9f4f5533a7ba1ac12550b194dc4b3971c370",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/15cc9f4f5533a7ba1ac12550b194dc4b3971c370",
+        "html_url": "https://github.com/insanj/insanj.com/commit/15cc9f4f5533a7ba1ac12550b194dc4b3971c370"
+      }
+    ]
+  },
+  {
+    "sha": "15cc9f4f5533a7ba1ac12550b194dc4b3971c370",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@users.noreply.github.com",
+        "date": "2017-09-28T02:14:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-09-28T02:14:41Z"
+      },
+      "message": "update dead links, rearrange chronologically",
+      "tree": {
+        "sha": "54d088ebc6b3061b9f732ad5c6bc641b93b17090",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/54d088ebc6b3061b9f732ad5c6bc641b93b17090"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/15cc9f4f5533a7ba1ac12550b194dc4b3971c370",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/15cc9f4f5533a7ba1ac12550b194dc4b3971c370",
+    "html_url": "https://github.com/insanj/insanj.com/commit/15cc9f4f5533a7ba1ac12550b194dc4b3971c370",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/15cc9f4f5533a7ba1ac12550b194dc4b3971c370/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "815ac82fbeb0f9758de69e6c52121a99a9288705",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/815ac82fbeb0f9758de69e6c52121a99a9288705",
+        "html_url": "https://github.com/insanj/insanj.com/commit/815ac82fbeb0f9758de69e6c52121a99a9288705"
+      }
+    ]
+  },
+  {
+    "sha": "815ac82fbeb0f9758de69e6c52121a99a9288705",
+    "commit": {
+      "author": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-09-08T22:40:50Z"
+      },
+      "committer": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-09-08T22:40:50Z"
+      },
+      "message": "fix map clipping when < min html/body width, make sidebar top of stack to prevent overlapping, fix missing </div>",
+      "tree": {
+        "sha": "e46918e8bcf98c17c8cf35a018a37a94e8c88eae",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/e46918e8bcf98c17c8cf35a018a37a94e8c88eae"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/815ac82fbeb0f9758de69e6c52121a99a9288705",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/815ac82fbeb0f9758de69e6c52121a99a9288705",
+    "html_url": "https://github.com/insanj/insanj.com/commit/815ac82fbeb0f9758de69e6c52121a99a9288705",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/815ac82fbeb0f9758de69e6c52121a99a9288705/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "314e7d3cf33278fa1d69295ec917b82f9306f61c",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/314e7d3cf33278fa1d69295ec917b82f9306f61c",
+        "html_url": "https://github.com/insanj/insanj.com/commit/314e7d3cf33278fa1d69295ec917b82f9306f61c"
+      }
+    ]
+  },
+  {
+    "sha": "314e7d3cf33278fa1d69295ec917b82f9306f61c",
+    "commit": {
+      "author": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-09-08T22:32:48Z"
+      },
+      "committer": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-09-08T22:32:48Z"
+      },
+      "message": "improve github div appearance, +1px inset in sidebar to correctly animate state",
+      "tree": {
+        "sha": "d6dce9e8c02fd112cdeba3175acf4cff6c3c80f5",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/d6dce9e8c02fd112cdeba3175acf4cff6c3c80f5"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/314e7d3cf33278fa1d69295ec917b82f9306f61c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/314e7d3cf33278fa1d69295ec917b82f9306f61c",
+    "html_url": "https://github.com/insanj/insanj.com/commit/314e7d3cf33278fa1d69295ec917b82f9306f61c",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/314e7d3cf33278fa1d69295ec917b82f9306f61c/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e0a8d88d0960913952f906bd4bdcea3e202cd17",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/4e0a8d88d0960913952f906bd4bdcea3e202cd17",
+        "html_url": "https://github.com/insanj/insanj.com/commit/4e0a8d88d0960913952f906bd4bdcea3e202cd17"
+      }
+    ]
+  },
+  {
+    "sha": "4e0a8d88d0960913952f906bd4bdcea3e202cd17",
+    "commit": {
+      "author": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-09-08T22:08:27Z"
+      },
+      "committer": {
+        "name": "insanj",
+        "email": "insanj@gmail.com",
+        "date": "2017-09-08T22:08:27Z"
+      },
+      "message": "grass-graph github contributions img experiment",
+      "tree": {
+        "sha": "49cd26999d4b8619a95b2587833c1831065fb184",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/49cd26999d4b8619a95b2587833c1831065fb184"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/4e0a8d88d0960913952f906bd4bdcea3e202cd17",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/4e0a8d88d0960913952f906bd4bdcea3e202cd17",
+    "html_url": "https://github.com/insanj/insanj.com/commit/4e0a8d88d0960913952f906bd4bdcea3e202cd17",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/4e0a8d88d0960913952f906bd4bdcea3e202cd17/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e3001e1b1a6f0985b0cc43e2b7d678abea16c901",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/e3001e1b1a6f0985b0cc43e2b7d678abea16c901",
+        "html_url": "https://github.com/insanj/insanj.com/commit/e3001e1b1a6f0985b0cc43e2b7d678abea16c901"
+      }
+    ]
+  },
+  {
+    "sha": "e3001e1b1a6f0985b0cc43e2b7d678abea16c901",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-08-06T22:05:21Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-08-06T22:05:21Z"
+      },
+      "message": "redesigned Lucid short film website w bolder text + better organization to draw eye into video, banner, then credits, minor corrections",
+      "tree": {
+        "sha": "790cd8b71d8f55390b459447aa23c0d04b454f9f",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/790cd8b71d8f55390b459447aa23c0d04b454f9f"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/e3001e1b1a6f0985b0cc43e2b7d678abea16c901",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/e3001e1b1a6f0985b0cc43e2b7d678abea16c901",
+    "html_url": "https://github.com/insanj/insanj.com/commit/e3001e1b1a6f0985b0cc43e2b7d678abea16c901",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/e3001e1b1a6f0985b0cc43e2b7d678abea16c901/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0dca7f3bc5aa889303843e188ff98ebdd15d8095",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/0dca7f3bc5aa889303843e188ff98ebdd15d8095",
+        "html_url": "https://github.com/insanj/insanj.com/commit/0dca7f3bc5aa889303843e188ff98ebdd15d8095"
+      }
+    ]
+  },
+  {
+    "sha": "0dca7f3bc5aa889303843e188ff98ebdd15d8095",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-08-06T18:10:24Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-08-06T18:10:24Z"
+      },
+      "message": "tweaks to Slyce description, some new icons in sidebar quick access, redesigned bio links, fix mobile width incompatibility w map, numerous minor layout + UI improvements",
+      "tree": {
+        "sha": "0b6edb4ae8232f2ca6c1d7322727f83448cfd900",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/0b6edb4ae8232f2ca6c1d7322727f83448cfd900"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/0dca7f3bc5aa889303843e188ff98ebdd15d8095",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/0dca7f3bc5aa889303843e188ff98ebdd15d8095",
+    "html_url": "https://github.com/insanj/insanj.com/commit/0dca7f3bc5aa889303843e188ff98ebdd15d8095",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/0dca7f3bc5aa889303843e188ff98ebdd15d8095/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6407771564b9e208cded2eaeea6018dbce67add0",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/6407771564b9e208cded2eaeea6018dbce67add0",
+        "html_url": "https://github.com/insanj/insanj.com/commit/6407771564b9e208cded2eaeea6018dbce67add0"
+      }
+    ]
+  },
+  {
+    "sha": "6407771564b9e208cded2eaeea6018dbce67add0",
+    "commit": {
+      "author": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-08-05T20:17:00Z"
+      },
+      "committer": {
+        "name": "Julian Weiss",
+        "email": "insanj@gmail.com",
+        "date": "2017-08-05T20:17:00Z"
+      },
+      "message": "redesign header, remove job-related links, add Slyce secondary app overflow table + use map as low-visibility bg, simplify bio div, load scripts at end of HTML doc, include mention of urlinq and AM projects",
+      "tree": {
+        "sha": "e6f8ab8c44df04e20b98cd27fa8d293386688aa3",
+        "url": "https://api.github.com/repos/insanj/insanj.com/git/trees/e6f8ab8c44df04e20b98cd27fa8d293386688aa3"
+      },
+      "url": "https://api.github.com/repos/insanj/insanj.com/git/commits/6407771564b9e208cded2eaeea6018dbce67add0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/insanj/insanj.com/commits/6407771564b9e208cded2eaeea6018dbce67add0",
+    "html_url": "https://github.com/insanj/insanj.com/commit/6407771564b9e208cded2eaeea6018dbce67add0",
+    "comments_url": "https://api.github.com/repos/insanj/insanj.com/commits/6407771564b9e208cded2eaeea6018dbce67add0/comments",
+    "author": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "insanj",
+      "id": 951011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/951011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/insanj",
+      "html_url": "https://github.com/insanj",
+      "followers_url": "https://api.github.com/users/insanj/followers",
+      "following_url": "https://api.github.com/users/insanj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/insanj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/insanj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/insanj/subscriptions",
+      "organizations_url": "https://api.github.com/users/insanj/orgs",
+      "repos_url": "https://api.github.com/users/insanj/repos",
+      "events_url": "https://api.github.com/users/insanj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/insanj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "053b75295333b97a2326c44a86d77a5ac6c9c702",
+        "url": "https://api.github.com/repos/insanj/insanj.com/commits/053b75295333b97a2326c44a86d77a5ac6c9c702",
+        "html_url": "https://github.com/insanj/insanj.com/commit/053b75295333b97a2326c44a86d77a5ac6c9c702"
+      }
+    ]
+  }
+]
