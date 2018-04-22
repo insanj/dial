@@ -45,6 +45,7 @@ h1 {
 
 #alert {
 	text-align: center;
-	font-size: 18px;
-	margin: 20px -10px 0px 40px;
+	width: 420px;
+	margin: auto;
+	margin-top: 20px;
 }

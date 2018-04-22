@@ -24,9 +24,11 @@ function loadDialForGithubCommits(commits) {
 		var globalItem = commits[intId];
 
 		$("#alert").remove();
-		var message = globalItem.commit.author.date;
-		message = "🎾 " + message;
-		$("body").append("<div id='alert' class='alert alert-dark' role='alert'>"+message+"</div>");
+		var itemDate = globalItem.commit.author.date;
+		var dateMessage = timeago().format(new Date(itemDate));
+		var shaMessage = globalItem.sha;
+		var message = "🎾 " + dateMessage + '<br/>' + shaMessage;
+		$("body").append("<div id='alert' class='alert alert-dark' role='alert'>"+message+"</div>");	
 	};
 
 	var dialListener = new DialListener(uiItemClickedCallback);
