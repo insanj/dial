@@ -91,10 +91,10 @@ class DialUIItem {
 
 /* Drawing */
 class DialDrawer {
-	static drawDialUIItems(dialItems) {
+	static drawDialUIItems(dialItems, parentDivId) {
 		var dialUIItemContainerId = "dialui-container";
 		var dialUIItemContainerDiv = "<div id='" + dialUIItemContainerId +"'></div>";
-		$("body").append(dialUIItemContainerDiv);
+		$("#"+parentDivId).append(dialUIItemContainerDiv);
 
 		var dialUIItemContainerHashId = "#"+dialUIItemContainerId;
 		for (var i = 0; i < dialItems.length; i++) {
