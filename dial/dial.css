@@ -5,23 +5,29 @@
 */
 
 #dialui-container {
-	background: #753a1a;
-	
+	background: #9f4d4d;
+		
 	margin: auto;
 	width: 500px;
 	height: 30px;
 
 	border-radius: 5px;
 
-    overflow-x: auto;
+    overflow: hidden;
 }
 
 .dialui-item {
 	background: #20bd87;
 
-	position: absolute;
+	float: right;
 
 	cursor: pointer;
 	width: 5px;
 	height: 30px;
+}
+
+.selected {
+	width: 10px;
+
+	background: #3939d5db;
 }
