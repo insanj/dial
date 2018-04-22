@@ -1,5 +1,7 @@
 # dial
-🎚️ timeline-like UI library for navigating a large dataset
+🎚️ timeline-like UI for navigating a large dataset
+
+![](example.png)
 
 ## License
 
