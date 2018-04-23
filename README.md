@@ -11,8 +11,10 @@
 
 ## Built with
 
-- [twbs/bootstrap](https://github.com/twbs/bootstrap)
 - [jquery/jquery](https://github.com/jquery/jquery)
+
+Example uses:
+- [twbs/bootstrap](https://github.com/twbs/bootstrap)
 - [hustcc/timeago](https://github.com/hustcc/timeago.js)
 
 ## License
