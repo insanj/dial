@@ -21,13 +21,14 @@ include("dial/emoji.js");
 
 /* Backend */
 class DialItem {
-	constructor(date, data) {
+	constructor(date, data, tag) {
 		if (date == null) {
 			throw "Date parameter required for DialItem: " + data;
 		}
 
 		this.date = new Date(date); 
 		this.data = data;
+		this.tag = tag;
 	}
 
 	static createDialItemFromGithubCommit(commit) {
@@ -37,7 +38,7 @@ class DialItem {
 			commitDate = commit.commit.author.date;
 		}
 
-		var newDialItem = new DialItem(commitDate, commit);
+		var newDialItem = new DialItem(commitDate, commit, commit.sha.substring(0,3));
 		return newDialItem;
 	}
 
@@ -84,9 +85,8 @@ class DialUIItem {
 		return htmlDivElement;
 	}
 
-	generateEmojiForItem() {
-		var dateTimestamp = this.dialItem.date.getTime();
-		var emoji = this.emojiGenerator.getEmojiForTimestamp(dateTimestamp);
+	createHTMLDivContents() {
+		var dateTimestamp = this.dialItem.tag;
 		return emoji;
 	}
 
