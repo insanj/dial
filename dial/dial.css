@@ -22,12 +22,9 @@
 	float: right;
 
 	cursor: pointer;
-	width: 5px;
 	height: 30px;
 }
 
 .selected {
-	width: 10px;
-
 	background: #3939d5db;
 }

@@ -16,7 +16,11 @@ function loadDialForGithubCommits(commits) {
 	var uiItems = DialUIItem.convertGithubCommitsToDialUIItems(commits);
 	
 	// draw the github commits into the existing dial UI
-	DialDrawer.drawDialUIItems(uiItems, "dial");
+	var uiItemCSS = DialUIItemCSS.fromDict({"width" : 20.0,
+											"padding" : 2.0,
+											"selectedWidth" : 30.0});
+
+	DialDrawer.drawDialUIItems(uiItems, uiItemCSS, "dial");
 
 	// if clicked, show alert with emoji and the date of the commit
 	var uiItemClickedCallback = function(target) {

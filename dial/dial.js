@@ -4,6 +4,21 @@
 	https://github.com/insanj/dial
 */
 
+/* Dependencies */
+function include(jsFilePath) {
+	// https://stackoverflow.com/a/950098
+    var js = document.createElement("script");
+
+    js.type = "text/javascript";
+    js.src = jsFilePath;
+
+    document.body.appendChild(js);
+}
+
+include("https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.js");
+include("https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.0/underscore.js");
+include("dial/emoji.js");
+
 /* Backend */
 class DialItem {
 	constructor(date, data) {
@@ -54,28 +69,33 @@ class DialItem {
 	Example: [ date1 0.0, date2 5.0, date3 10.0 ..... date10 50.0 ]
 */
 class DialUIItem {
-	constructor(dialItem, xOffset, individualXOffset) {
+	constructor(dialItem, emojiGenerator) {
 		this.dialItem = dialItem;
-		this.xOffset = xOffset;
-		this.individualXOffset = individualXOffset;
-		this.usesLeftMargin = false;
+		this.emojiGenerator = emojiGenerator;
+		this.emojiEnabled = true;
 	}
 
 	convertToHTMLDiv(i) {
-		var htmlMarginStyle = "margin-left: "+this.individualXOffset+"px;";
-		if (this.usesLeftMargin == true) {
-			htmlMarginStyle = "margin-left: " + this.xOffset + "px;";
-		}
-
-		var htmlDivElement = "<div id='"+i+"' class='dialui-item' style='"+htmlMarginStyle+"'></div>";
+		var htmlDivContents = "";
+		if (this.emojiEnabled == true) {
+			htmlDivContents = this.generateEmojiForItem();
+		} 
+		var htmlDivElement = "<div id='"+i+"' class='dialui-item'>"+htmlDivContents+"</div>";
 		return htmlDivElement;
 	}
 
-	static createDialUIItemsFromArray(dialItems, individualXOffset) {
+	generateEmojiForItem() {
+		var dateTimestamp = this.dialItem.date.getTime();
+		var emoji = this.emojiGenerator.getEmojiForTimestamp(dateTimestamp);
+		return emoji;
+	}
+
+	static createDialUIItemsFromArray(dialItems) {
 		var convertedDialUIItems = [];
-		for (var i = 0, o = 0.0; i < dialItems.length; i++, o=o+individualXOffset) {
+		var emojiGenerator = new ByrdseedEmoji();
+		for (var i = 0; i < dialItems.length; i++) {
 			var thisDialItem = dialItems[i];
-			var newDialUIItem = new DialUIItem(thisDialItem, o, individualXOffset);
+			var newDialUIItem = new DialUIItem(thisDialItem, emojiGenerator);
 			convertedDialUIItems.push(newDialUIItem);
 		}
 
@@ -84,14 +104,44 @@ class DialUIItem {
 
 	static convertGithubCommitsToDialUIItems(commits) {
 		var dialItems = DialItem.convertGithubCommitsToDialItems(commits);
-		var dialUIItems = DialUIItem.createDialUIItemsFromArray(dialItems, 10.0);
+		var dialUIItems = DialUIItem.createDialUIItemsFromArray(dialItems);
 		return dialUIItems;
+	}
+}
+
+class DialUIItemCSS {
+	constructor(width, padding, selectedWidth) {
+		this.width = width;
+		this.padding = padding;
+		this.selectedWidth = selectedWidth;
+	}
+
+	static fromDict(dict) {
+		var pcWidth = dict["width"];
+		var pcPadding = dict["padding"];
+		var pcSelectedWidth = dict["selectedWidth"];
+		return new DialUIItemCSS(pcWidth, pcPadding, pcSelectedWidth);
+	}
+
+	convertToCSSDict() {
+		var keys = ["width", "margin-left"];
+		var values = [this.width, this.padding];
+
+		var dict = {};
+		for (var i = 0; i < keys.length; i++) {
+			dict[keys[i]] = values[i] + "px";
+		}
+		return dict;
+	}
+
+	getSelectedWidthCSSDict() {
+		return {"width" : this.selectedWidth + "px !important;"};
 	}
 }
 
 /* Drawing */
 class DialDrawer {
-	static drawDialUIItems(dialItems, parentDivId) {
+	static drawDialUIItems(dialItems, dialItemCSS, parentDivId) {
 		var dialUIItemContainerId = "dialui-container";
 		var dialUIItemContainerDiv = "<div id='" + dialUIItemContainerId +"'></div>";
 		$("#"+parentDivId).append(dialUIItemContainerDiv);
@@ -102,6 +152,22 @@ class DialDrawer {
 			var uiItemDiv = uiItem.convertToHTMLDiv(i);
 			$(dialUIItemContainerHashId).append(uiItemDiv);
 		}
+
+		DialDrawer.setDialUIItemCSS(dialItemCSS, dialUIItemContainerHashId);
+	}
+
+	static setDialUIItemCSS(resetCSS, parentDivId) {
+		var dialItemCSSDict = resetCSS.convertToCSSDict();
+		$(parentDivId).children(".dialui-item").css(dialItemCSSDict);
+
+		var dialItemSelectedCSSDict = resetCSS.getSelectedWidthCSSDict();
+		DialDrawer.addCSSRule(".selected", dialItemSelectedCSSDict);
+	}
+
+	static addCSSRule(rule, css) { // https://stackoverflow.com/a/29307266
+		$("#dialdrawer-css").remove();
+		css = JSON.stringify(css).replace(/"/g, "").replace(/,/g, ";");
+		$("<style>").prop("type", "text/css").prop("id", "dialdrawer-css").html(rule + css).appendTo("head");
 	}
 }
 
@@ -116,7 +182,19 @@ class DialListener {
 	}
 }
 
+/* Runtime */
 var globalDialListeners = [];
+function addDialListener(newDialListener) {
+	globalDialListeners.push(newDialListener);
+}
+
+var defaultDialListener = new DialListener(function(target) {
+	$(".selected").removeClass("selected");
+	$(target).addClass("selected");
+});
+addDialListener(defaultDialListener);
+
+
 $("body").click("dialui-item", function(e) {
 	if (e.target.className != "dialui-item") {
 		return;
@@ -128,14 +206,4 @@ $("body").click("dialui-item", function(e) {
 	}
 });
 
-function addDialListener(newDialListener) {
-	globalDialListeners.push(newDialListener);
-}
 
-// Default Listener
-var defaultDialListener = new DialListener(function(target) {
-	$(".selected").removeClass("selected");
-	$(target).addClass("selected");
-});
-
-addDialListener(defaultDialListener);
