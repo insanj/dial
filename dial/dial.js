@@ -4,17 +4,6 @@
 	https://github.com/insanj/dial
 */
 
-/* Dependencies */
-function include(jsFilePath) {
-	// https://stackoverflow.com/a/950098
-    var js = document.createElement("script");
-
-    js.type = "text/javascript";
-    js.src = jsFilePath;
-
-    document.body.appendChild(js);
-}
-
 /* Backend */
 class DialItem {
 	constructor(date, data, tag) {
