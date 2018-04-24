@@ -47,7 +47,7 @@ class DialItem {
 		}
 
 		var sortedItems = convertedDialItems.sort(function (a, b) {
-			return a.date - b.date;
+			return b.date - a.date;
 		});
 
 		return sortedItems;
@@ -68,20 +68,16 @@ class DialItem {
 class DialUIItem {
 	constructor(dialItem) {
 		this.dialItem = dialItem;
-		this.emojiEnabled = true;
 	}
 
 	convertToHTMLDiv(i) {
-		var htmlDivContents = "";
-		if (this.emojiEnabled == true) {
-			htmlDivContents = this.createHTMLDivContents();
-		} 
-		var htmlDivElement = "<div id='"+i+"' class='dialui-item'>"+htmlDivContents+"</div>";
+		var htmlDivContents = this.createHTMLDivContents();
+		var htmlDivElement = "<div id='"+this.dialItem.tag+"' class='dialui-item'>"+htmlDivContents+"</div>";
 		return htmlDivElement;
 	}
 
 	createHTMLDivContents() {
-		return this.dialItem.tag;
+		return "<div class='dialui-item-contents'>"+this.dialItem.tag+"</div>";
 	}
 
 	static createDialUIItemsFromArray(dialItems) {
@@ -186,7 +182,6 @@ var defaultDialListener = new DialListener(function(target) {
 	$(target).addClass("selected");
 });
 addDialListener(defaultDialListener);
-
 
 $("body").click("dialui-item", function(e) {
 	if (e.target.className != "dialui-item") {

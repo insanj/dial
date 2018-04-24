@@ -24,13 +24,17 @@ function loadDialForGithubCommits(commits) {
 
 	// if clicked, show alert with emoji and the date of the commit
 	var uiItemClickedCallback = function(target) {
-		var intId = parseInt(target.id);
-		var globalItem = commits[intId];
+		var selectedCommit;
+		for (var i = 0; i < commits.length; i++) {
+			if (commits[i].sha.substring(0, 3) == target.id) {
+				selectedCommit = commits[i];
+			}
+		}
 
 		$("#alert").remove();
-		var itemDate = globalItem.commit.author.date;
+		var itemDate = selectedCommit.commit.author.date;
 		var dateMessage = timeago().format(new Date(itemDate));
-		var shaMessage = globalItem.sha;
+		var shaMessage = selectedCommit.sha;
 		var message = "🎾 " + dateMessage + '<br/>' + shaMessage;
 		$("body").append("<div id='alert' class='alert alert-dark' role='alert'>"+message+"</div>");	
 	};
