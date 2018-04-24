@@ -15,10 +15,6 @@ function include(jsFilePath) {
     document.body.appendChild(js);
 }
 
-include("https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.js");
-include("https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.0/underscore.js");
-include("dial/emoji.js");
-
 /* Backend */
 class DialItem {
 	constructor(date, data, tag) {
@@ -70,32 +66,29 @@ class DialItem {
 	Example: [ date1 0.0, date2 5.0, date3 10.0 ..... date10 50.0 ]
 */
 class DialUIItem {
-	constructor(dialItem, emojiGenerator) {
+	constructor(dialItem) {
 		this.dialItem = dialItem;
-		this.emojiGenerator = emojiGenerator;
 		this.emojiEnabled = true;
 	}
 
 	convertToHTMLDiv(i) {
 		var htmlDivContents = "";
 		if (this.emojiEnabled == true) {
-			htmlDivContents = this.generateEmojiForItem();
+			htmlDivContents = this.createHTMLDivContents();
 		} 
 		var htmlDivElement = "<div id='"+i+"' class='dialui-item'>"+htmlDivContents+"</div>";
 		return htmlDivElement;
 	}
 
 	createHTMLDivContents() {
-		var dateTimestamp = this.dialItem.tag;
-		return emoji;
+		return this.dialItem.tag;
 	}
 
 	static createDialUIItemsFromArray(dialItems) {
 		var convertedDialUIItems = [];
-		var emojiGenerator = new ByrdseedEmoji();
 		for (var i = 0; i < dialItems.length; i++) {
 			var thisDialItem = dialItems[i];
-			var newDialUIItem = new DialUIItem(thisDialItem, emojiGenerator);
+			var newDialUIItem = new DialUIItem(thisDialItem);
 			convertedDialUIItems.push(newDialUIItem);
 		}
 
