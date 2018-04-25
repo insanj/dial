@@ -7,11 +7,9 @@
 /* Backend */
 class DialItem {
 	constructor(date, data, tag) {
-		if (date == null) {
-			throw "Date parameter required for DialItem: " + data;
+		if (date != null) {
+			this.date = new Date(date); 
 		}
-
-		this.date = new Date(date); 
 		this.data = data;
 		this.tag = tag;
 	}
@@ -40,6 +38,22 @@ class DialItem {
 		});
 
 		return sortedItems;
+	}
+
+	static createDialItemFromGithubCommitRef(commitRef) {
+		var newDialItem = new DialItem(null, commitRef, commitRef.substring(0,3));
+		return newDialItem;
+	}
+
+	static convertGithubCommitRefsToDialItems(commitRefArray) {
+		var convertedDialRefItems = [];
+		for (var i = 0; i < commitRefArray.length; i++) {
+			var thisCommitRef = commitRefArray[i];
+			var convertedItemRef = DialItem.createDialItemFromGithubCommitRef(thisCommitRef);
+			convertedDialRefItems.push(convertedItemRef);
+		}
+
+		return convertedDialRefItems; // we have to assume it's already sorted
 	}
 }
 
@@ -82,6 +96,12 @@ class DialUIItem {
 
 	static convertGithubCommitsToDialUIItems(commits) {
 		var dialItems = DialItem.convertGithubCommitsToDialItems(commits);
+		var dialUIItems = DialUIItem.createDialUIItemsFromArray(dialItems);
+		return dialUIItems;
+	}
+
+	static convertGithubCommitRefsToDialUIItems(commitRefs) {
+		var dialItems = DialItem.convertGithubCommitRefsToDialItems(commitRefs);
 		var dialUIItems = DialUIItem.createDialUIItemsFromArray(dialItems);
 		return dialUIItems;
 	}

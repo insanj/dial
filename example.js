@@ -43,8 +43,25 @@ function loadDialForGithubCommits(commits) {
 	addDialListener(dialListener);
 }
 
+function loadDialForGithubCommitRefs(commitRefs) {
+	var uiItems = DialUIItem.convertGithubCommitRefsToDialUIItems(commitRefs);
+	var uiItemCSS = DialUIItemCSS.fromDict({"width" : 20.0,"padding" : 2.0,"selectedWidth" : 30.0});
+	DialDrawer.drawDialUIItems(uiItems, uiItemCSS, "dial");
+
+	var uiItemClickedCallback = function(target) {
+		$("#alert").remove();
+		var message = "🎾 " + target.id;
+		$("body").append("<div id='alert' class='alert alert-dark' role='alert'>"+message+"</div>");	
+	};
+
+	var dialListener = new DialListener(uiItemClickedCallback);
+	addDialListener(dialListener);
+}
+
 $(document).ready(function() {
-	getGithubCommits(function(mockCommits) {
-		loadDialForGithubCommits(mockCommits);
-	});
+	loadDialForGithubCommitRefs(dialMockGithubCommitRefs);
+
+	//getGithubCommits(function(mockCommits) {
+	//	loadDialForGithubCommits(mockCommits);
+	//});
 });
