@@ -4,25 +4,31 @@
 	https://github.com/insanj/dial
 */
 
-#dialui-container {
-	background: #9f4d4d;
-		
-	margin: auto;
-	width: 100%;
+#dialui-html {
 	height: 30px;
 
+	overflow:hidden;
+}
+
+#dialui-container {	
+	height: 50px;
+
+	background: #9f4d4d;
+		
 	border-radius: 5px;
 
-	overflow: hidden;
+	white-space:nowrap;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	margin-bottom: 20px;
 }
 
 .dialui-item {
+	display: inline-block;
 	background: #20bd87;
-
-	float: right;
-
 	cursor: pointer;
-	height: 30px;
+	height: 100%;
+	padding-top: 1px;
 }
 
 .selected {

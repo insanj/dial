@@ -140,9 +140,13 @@ class DialUIItemCSS {
 /* Drawing */
 class DialDrawer {
 	static drawDialUIItems(dialItems, dialItemCSS, parentDivId) {
+		var dialUIItemHTMLID = "dialui-html";
+		var dialUIItemHTMLDiv = "<div id='" + dialUIItemHTMLID +"'></div>";
+		$("#"+parentDivId).append(dialUIItemHTMLDiv);
+
 		var dialUIItemContainerId = "dialui-container";
 		var dialUIItemContainerDiv = "<div id='" + dialUIItemContainerId +"'></div>";
-		$("#"+parentDivId).append(dialUIItemContainerDiv);
+		$("#"+dialUIItemHTMLID).append(dialUIItemContainerDiv);
 
 		var dialUIItemContainerHashId = "#"+dialUIItemContainerId;
 		for (var i = 0; i < dialItems.length; i++) {
